@@ -1,0 +1,36 @@
+{
+  "name": "hw-ajs-phones",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oksana-danilova/hw-ajs-phones.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "oksana-danilova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oksana-danilova/hw-ajs-phones/issues"
+  },
+  "homepage": "https://github.com/oksana-danilova/hw-ajs-phones#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@eslint/js": "^9.14.0",
+    "@stylistic/eslint-plugin-js": "^2.10.1",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0"
+  }
+}
